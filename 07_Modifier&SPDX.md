@@ -13,7 +13,7 @@ function add (uint256 x, uint256 y) public pure returns (uint256 total) {
 
 ## modifier (수정자)
 
-함수에 적용해 함수보다 먼저 실행되는 것. 유효성 검증등을 깔끔하게 할 수 있다. 코드의 재사용 관점에서 유용하다.
+함수에 적용해 함수보다 먼저 실행되는 것. 유효성 검증등을 깔끔하게 할 수 있다. **코드의 재사용 관점에서 유용**하다.
 
 ```
 modifier onlyBy(parameter) {
